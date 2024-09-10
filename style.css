@@ -1,0 +1,146 @@
+body {
+    border: 3px outset black;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+nav {
+    background-color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.flex-nav {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+footer {
+    background-color: aliceblue;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.flex-foot p {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+
+.splash {
+    background-color: aliceblue;
+    font-family: "Montserrat", sans-serif;
+    
+}
+
+.splash h1 {
+    font-family: "Montserrat", sans-serif;
+}
+
+.splash img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid;
+    border-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.splash #address {
+    text-decoration: underline;
+}
+
+.splash #tag-line {
+    text-decoration: underline;
+}
+
+hr {
+    border: none;
+    border-top: 3px dotted #999;
+    color: #999;
+    background-color: #fff;
+    height: 1px;
+    margin: 20px 0;
+  }
+
+  #education {
+    font-family: "Montserrat", sans-serif;
+    background-color: aliceblue; 
+  }
+
+  #honors {
+    font-family: "Montserrat", sans-serif;
+    background-color: aliceblue; 
+  }
+
+  #skills {
+    font-family: "Montserrat", sans-serif;
+    background-color: aliceblue; 
+  }
+
+  #skills ul {
+    font-family: "Montserrat", sans-serif;
+  }
+
+  #experience {
+    font-family: "Montserrat", sans-serif;
+    background-color: aliceblue; 
+  }
+
+  #projects {
+    font-family: "Montserrat", sans-serif;
+    background-color: aliceblue; 
+  }
+
+  section dl {
+    display: grid;
+    gap: 20px;
+    grid-template-rows: repeat(3, 1fr);
+  }
+
+  a:link {
+    color:blue;
+    text-decoration: none;
+  }
+
+  a:visited {
+    color:cadetblue
+  }
+
+  a:hover {
+    color: goldenrod;
+  }
+
+  .three-col {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns with equal width */
+    gap: 20px; /* space between cards */
+  }
+  
+  .card {
+    background-color: #fff; /* White background */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    padding: 20px; /* Padding inside card */
+    text-align: center; /* Center align text */
+  }
+  
+  .card img {
+    max-width: 100%; /* Image fits within the card */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 4px; /* Slightly rounded corners for images */
+  }
+
+  .one-col {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px 10px;
+  }
+
+
+
+
+
